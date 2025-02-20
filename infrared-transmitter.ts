@@ -72,7 +72,7 @@ namespace makerbit {
       });
 
       // mark the end of transmission
-      this.transmitBit(NEC_BIT_MARK, 0);
+      this.transmitBit(NEC_BIT_MARK, 1);
     }
   }
 
